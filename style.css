@@ -123,13 +123,13 @@ footer {
     }
     
     #nav-bar {
-        width: 850px;
+        width: 100%;
         height: auto;
         position: relative;
     }
 
     #main-section {
-        width: 850px;
+        width: 100%;
         margin: 0 auto;
     }
 
