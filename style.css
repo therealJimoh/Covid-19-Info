@@ -1,0 +1,175 @@
+:root {
+    --main-font-family: "Poppins", sans-serif;
+    --main-font-size: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--main-font-family);
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: 16px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    margin-left: 0px;
+    min-width: 290px;
+    height: 100%;
+    background-color: orangered;
+    padding: 2px;
+}
+
+#nav-bar h3 {
+    font-family: var(--main-font-family);
+    font-size: 48px;
+    margin: 90px 0 0;
+    color: white;
+}
+
+.nav-link  {
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.nav-link li {
+    margin: 30px;
+    margin-left: 0em;
+   
+}
+
+.nav-link li > a {
+    text-decoration: none;
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    display: block;
+    color: white;
+    font-weight: bolder;
+    transition: all 1s;
+}
+
+.nav-link li > a:hover {
+    color: black;
+    padding: 10px;
+    max-width: 200px;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+#main-section {
+    position: relative;
+    top: 110px;
+    margin-left: 310px;
+}
+
+#history h1 {
+    font-size: 60px;
+}
+ 
+.img-container {
+   width: 900px;
+   display: block;
+   margin: 0 auto;
+   padding: 50px;
+} 
+
+.covid-img {
+    display: block;
+    margin: 0 auto;
+    height: 230px;
+
+}
+
+.symptoms-img {
+    display: block;
+    margin: 0 auto;
+    height: 230px;
+}
+
+.prevention-img {
+    display: block;
+    margin: 0 auto;
+    height: 230px;
+
+}
+
+footer {
+    background-color: #292722;
+    padding: 5px;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 700px) {
+    body {
+        margin: 3px;
+    }
+    
+    #nav-bar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #main-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #nav-bar h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #history h1 {
+        text-align: center;
+        margin-top: 0px;
+        font-size: larger;
+    }
+
+    .nav-link li > a {
+        text-align: center;
+        text-decoration: none;
+        font-family: var(--main-font-family);
+        font-size: var(--main-font-size);
+        display: block;
+        color: white;
+        font-weight: bolder;
+        transition: none;
+    }
+
+    .nav-link li > a:hover {
+        text-align: center;
+        color: black;
+        padding: 10px;
+        width: 200px;
+        background-color: white;
+        transform: none;
+}
+
+    .img-container {
+        width: 350px;
+        margin: 0px;
+    }
+
+}
+
+
+
